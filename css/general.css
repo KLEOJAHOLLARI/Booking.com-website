@@ -1,0 +1,242 @@
+
+.input-table{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.container-1 {
+  /* 1140px */
+  max-width: 120rem;
+  padding: 0 3.2rem;
+  margin: 0 auto;
+}
+
+.grid{
+  display: grid;
+  column-gap: 6.4rem;
+  row-gap: 9.6rem;
+
+  /* margin-bottom: 9.6rem; */
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.grid:not(:last-child) {
+  margin-bottom: 50px;
+}
+
+.row-height{
+  height: 100%;
+}
+
+.row {
+  max-width: 100%;
+  margin: 50px  15%; }
+ 
+  .row::after {
+    content: "";
+    display: table;
+    clear: both; }
+  .row [class^="col-"] {
+    float: left; }
+    .row [class^="col-"]:not(:last-child) {
+      margin-right: 6rem; }
+  .row .col-1-of-2 {
+    width: calc((100% - 6rem) / 2); }
+  .row .col-1-of-3 {
+    width: calc((100% - 2 * 6rem) / 3); }
+  .row .col-2-of-3 {
+    width: calc(2 * ((100% - 2 * 6rem) / 3) + 6rem); }
+  .row .col-1-of-4 {
+    width: calc((100% - 3 * 6rem) / 4); }
+
+  .row .col-1-of-5{
+    width: calc((100% - 4 * 6rem) /5) ;
+  }
+
+  .row .col-1-of-6{
+    width: calc((100% - 6 * 6rem) /6) ;
+  }
+  .row .col-2-of-4 {
+    width: calc(2 * ((100% - 3 * 6rem) / 4) + 6rem); }
+  .row .col-3-of-4 {
+    width: calc(3 * ((100% - 3 * 6rem) / 4) + 2 * 6rem); }
+
+.card__picture--1 {
+      background-image: url(../img/first.jpeg) ;
+      object-fit: cover;
+    }
+.card__picture--2 {
+      background-image: url(../img/second.jpeg);
+      object-fit: cover;}
+.card__picture--3 {
+      background-image:url(../img/third.jpg);
+      background-position: center;
+      height:40rem;}
+.card__picture--4 {
+      background-image:url(../img/fourth.jpg);
+      background-position: center;
+      height:40rem;}
+.card__picture--5 {
+        background-image:url(../img/five.jpg);
+        background-position: center;
+        }
+.card__picture--6 {
+        background-image:url(../img/six.jpg);
+        background-position: center;
+        background-size: cover;
+        width: 100%;
+        height:100%;}
+.card__picture--7{
+        background-image:url(../img/seven.jpg);
+        background-position: center;
+        }
+.card__picture--8{
+          background-image:url(../img/eight.jpeg);
+          background-position: center;
+          }
+.card__picture--9{
+            background-image:url(../img/nine.jpeg);
+            background-position: center;
+          }
+.card__picture--10{
+            background-image:url(../img/ten.jpeg);
+            background-position: center;
+} 
+.card__picture--11{
+            background-image:url(../img/eleven.jpeg);
+            background-position: center;
+}
+
+.card__picture--12{
+  background-image:url(../img/third.jpg);
+  background-position: center;
+}
+.card__picture--13{
+  background-image:url(../img/12.jpg);
+  background-position: center;
+}
+.card__picture--14{
+  background-image:url(../img/five.jpg);
+  background-position: center;
+}
+.card__picture--15{
+  background-image:url(../img/seven.jpg);
+  background-position: center;
+}
+.card__picture--16{
+  background-image:url(../img/12.jpg);
+  background-position: center;
+}
+
+.card__picture--17{
+  background-image:url(../img1/cosy-hotels.webp);
+  background-position: center;
+}
+
+.card__picture--18{
+  background-image:url(../img1/cosy-hotels-1.webp);
+  background-position: center;
+}
+
+.card__picture--19{
+  background-image:url(../img1/cosy-hotels-2.webp);
+  background-position: center;
+}
+
+.card__picture--20{
+  background-image:url(../img1/cosy-hotels-3.webp);
+  background-position: center;
+}
+
+
+.img-logo{
+  width: 3rem;
+  height: 3REM;
+  position: absolute;
+  top: 7px;
+  left: 9.2rem;
+  color: #000;
+}
+
+.left-prg{
+  position: relative;
+  top: 0;
+  left: 1rem;
+}
+
+.card__heading-span--1{
+  position: absolute;
+  left: 1rem; 
+}
+
+.card__heading-span--2{
+  position: absolute;
+  left:01rem; 
+}
+
+.logo-left{
+  position: absolute;
+  left: 14rem;
+}
+
+.logo-left__1{
+  position: absolute;
+  left: 10rem;
+}
+
+.logo-right{
+  position: absolute;
+  left: 8 rem;
+}
+
+.p{
+  position: absolute;
+  left:0;
+  top: 40px;
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.4rem;
+  margin-bottom:0.5rem ;
+}
+
+.p-2{
+  position:relative;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 20px;
+  top:65px;
+  margin-bottom:0.5rem ;
+}
+
+.font-size-prg{
+  font-size: 1.2rem;
+}
+input[type="checkbox"]{
+  height: 1.8rem;
+  width: 1.8rem;
+  margin-right: 0.5rem;
+}
+
+@media only screen and (max-width: 900px) {
+  header, nav, section,footer {
+    margin: 0;
+    padding: 10px;
+  }
+
+  .navigation{
+    
+    display: block;
+    width: 50%;
+  }
+
+  .cta-form{
+    padding: 1px;
+    margin-top: 18rem;
+    }
+  
+  nav {
+    display: none;
+  }
+}

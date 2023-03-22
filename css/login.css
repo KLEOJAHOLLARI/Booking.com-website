@@ -1,0 +1,157 @@
+
+.section-login__box{
+    display: block;
+    width: 100%;
+    height: 500px;
+}
+
+.login-box {
+    width: 40rem;
+    /* height: 90vh; */
+    margin: 100px auto;
+    padding: 20px;
+    /* border: 1px solid #ccc; */
+    border-radius: 5px;
+    /* background-color: #f2f2f2; */
+  }
+  
+ .headin-login{
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 3.2rem;
+    margin-bottom: 3rem;
+
+ }
+
+ .span-login{
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 2.1rem;
+ }
+  
+  form label {
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  form input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .login-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #006ce4;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  @keyframes pulsate{
+    0%{
+        transform: scale(1);
+        box-shadow: none;
+    }
+
+    50%{
+        transform: scale(1.05);
+        box-shadow: 0 1rem 4rem rgba(0,0,0,.25);
+    }
+
+    100%{
+        transform: scale(1);
+        box-shadow: none;
+    }
+}
+  
+.login-btn:hover{
+    animation: pulsate 0.3s infinite;  
+  }
+
+
+
+.access-panel__social-divider {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 30px;  
+    width: 100%;  
+}
+.access-panel__social-divider-line {
+    width: 200px;
+}
+
+
+
+.access-panel__social-divider-text{
+    margin: 0 8px 2px;
+    white-space: nowrap;
+    font-size: 1.4rem;
+}
+
+.Le0O55_iMmJJKvEaCRdN {
+    background: #a7a7a7;
+    border: 0;
+    height: 1px;
+    margin-top:7px;
+    width: 33%;
+}
+.Le0O55_iMmJJKvEaCRdN-1{
+    background: #a7a7a7;
+    border: 0;
+    height: 1px;
+    margin-top:7px;
+    width: 99%;
+}
+
+.icon{
+    background: none;
+    border: 1px solid #e7e7e7 !important;
+    border-radius: 4px;
+    cursor: pointer;
+    display: inline-block;
+    margin: 2.2rem;
+    padding: 17px;
+    width: 7rem;
+    height: 7rem;
+    cursor:pointer;
+}
+
+.icon:hover{
+    border: 1px solid #006ce4 !important;
+    transition: all 0.3s ease-in-out;
+}
+
+.login-ways{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 1.6rem;
+    color: #006ce4;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+
+
+.div-warning span{
+    color: #006ce4;
+    cursor: pointer;
+}
+
+.div-warning{
+    align-items: center;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    padding: 1.6rem;
+    border-bottom: 1px solid #a7a7a7;
+}
+
+.padding{
+    padding: 16px;
+}
